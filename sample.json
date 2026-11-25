@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "id": "P12",
+      "collection": "Prints",
+      "condition": "stable",
+      "priority": "routine",
+      "status": "closed"
+    },
+    {
+      "id": "P15",
+      "collection": "Prints",
+      "condition": "needs_care",
+      "priority": "urgent",
+      "status": "open"
+    },
+    {
+      "id": "P18",
+      "collection": "Prints",
+      "priority": "soon",
+      "status": "open"
+    },
+    {
+      "id": "T04",
+      "collection": "Textiles",
+      "condition": "watch",
+      "priority": null,
+      "status": "open"
+    }
+  ]
+}

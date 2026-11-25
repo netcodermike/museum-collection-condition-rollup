@@ -1,0 +1,60 @@
+{
+  "command": [
+    "node",
+    "app.mjs"
+  ],
+  "expected": {
+    "collections": [
+      {
+        "collection": "Prints",
+        "total": 3,
+        "open": 2,
+        "condition_counts": {
+          "stable": 1,
+          "watch": 0,
+          "needs_care": 1,
+          "unknown": 1
+        },
+        "priority_counts": {
+          "routine": 1,
+          "soon": 1,
+          "urgent": 1,
+          "unknown": 0
+        }
+      },
+      {
+        "collection": "Textiles",
+        "total": 1,
+        "open": 1,
+        "condition_counts": {
+          "stable": 0,
+          "watch": 1,
+          "needs_care": 0,
+          "unknown": 0
+        },
+        "priority_counts": {
+          "routine": 0,
+          "soon": 0,
+          "urgent": 0,
+          "unknown": 1
+        }
+      }
+    ],
+    "open_unknown": [
+      {
+        "id": "P18",
+        "collection": "Prints",
+        "missing": [
+          "condition"
+        ]
+      },
+      {
+        "id": "T04",
+        "collection": "Textiles",
+        "missing": [
+          "priority"
+        ]
+      }
+    ]
+  }
+}
